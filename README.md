@@ -9,12 +9,24 @@ The rapid spread of information through social media platforms has made it incre
 The team has gathered a comprehensive dataset from various social media platforms, which serves as the foundation for model training and evaluation.
 
 ### Data Preprocessing
-The collected data is meticulously cleaned and prepared for model training, ensuring that the input features are in a suitable format for the various machine learning and deep learning techniques.
+The collected data is meticulously cleaned and prepared for model training, ensuring that the input features are in a suitable format for the machine learning and deep learning techniques.
 
 ## Model Development
+- Logistic Regression (LR) Model
 - Convolutional Neural Networks (CNN)
 
 ## Model Performance
+
+### Logistic Regression Performance
+- **Accuracy:** 83.26%
+- **Precision for Class 0 (Real):** 0.71
+- **Precision for Class 1 (Fake):** 0.86
+- **Recall for Class 0:** 0.52
+- **Recall for Class 1:** 0.93
+- **F1-Score for Class 0:** 0.60
+- **F1-Score for Class 1:** 0.89
+
+This classification report provides a detailed breakdown of the model's performance, indicating its capability to distinguish between real and fake news effectively. The high precision and recall for Class 1 highlight the model's proficiency in identifying fake news.
 
 ### CNN Model Performance
 **Epoch Results:**
@@ -53,7 +65,4 @@ The <b>Convolutional Neural Network (CNN)</b> stands out as the best-performing 
 - **Scalability and Deployment**
   - Scalable solutions
   - Cloud integration
-
-## Conclusion
-The high precision and recall for both classes (fake and real news) indicate the model's robustness and reliability in correctly identifying fake news. The CNN's superior performance metrics highlight its effectiveness and efficiency in distinguishing between fake and real news. Therefore, the CNN model stands out as the best choice for fake news detection among the evaluated models.
 
